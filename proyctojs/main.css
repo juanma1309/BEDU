@@ -1,0 +1,222 @@
+html{
+    background-color: white;
+}
+
+body{
+    background-color:white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color:white;
+
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    position: fixed;
+    background-color: #FCB800;
+    width: 100%;
+    height: 90px;
+    z-index: 2;
+
+}
+
+.logo{
+    height: 75px;
+}
+
+.logo img{
+    position: relative;
+    top: 20px;
+}
+
+.shop{
+    width: 8rem;
+    height: 75px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.shop img{
+    margin-right: 0.8rem;
+}
+
+/* --------------PENDIENTE- */
+.list-shop{
+    visibility: hidden;
+    /* border: 1px solid black; */
+    height: 75px;
+}
+
+.buscador{
+    display: flex;
+    justify-content:center;
+}
+
+.inp-look{
+    width: 30rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-buscar{
+    padding: 0.5rem;
+    height: 2.5rem;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.compras{
+    height: 60px;
+    width: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+.submenu {
+    position: relative;
+    /* width: 20px;
+    height: 20px; */
+    /* border: 1px solid red; */
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    border: 1px solid red;
+
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.login{
+    height: 60px;
+    width: 7rem;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+
+.informativo{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.carrusel{
+    width: 983px;
+    height: 340px;
+}
+
+.promocioncarrusel h5{
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    top: 100px;
+}
+
+.promocioncarrusel p{
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    bottom: 250px;
+}
+
+.promotarget{
+    flex-wrap: wrap;
+    /* border: 3px solid red; */
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoads{
+    /* border: 0.5px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap;     */
+    width: 100%;
+    margin: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.ads-target{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.principal{
+    position: absolute;
+    top: 600px;
+    border-top: 3px solid gray;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.cuadrilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+}
+
+.card{
+    padding: 1rem;
+    border: 3px solid blue;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  td,
+  th {
+    padding: 0;
+  }
+
+  .productosadicional{
+    /* border: 3px solid red; */
+    width: 100%;
+    /* height: 100px; */
+    position: absolute;
+    top: 1020px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .card{
+    padding: 40px;
+  }
